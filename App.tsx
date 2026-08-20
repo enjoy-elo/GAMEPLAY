@@ -3,10 +3,12 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={{ backgroundColor: 'white', flex: 1 }}>
-      <View style={{ height:50, width:50, backgroundColor:'red'}}>
+      <View style={{height:50,width:50,backgroundColor:'red'}}>
       </View>
-      <View style={{ height}}
-      <View style={styles.box} />
+      <View style={{height:50,width:50,backgroundColor:'blue'}}>
+      </View>      
+      <View style={{height:50,width:50,backgroundColor:'purple'}}>
+      </View>
     </View>
   );
 }
